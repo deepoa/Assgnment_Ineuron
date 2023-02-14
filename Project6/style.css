@@ -1,0 +1,86 @@
+
+ 
+
+* {
+  background-color:grey;
+  overflow: hidden;
+}
+
+
+nav{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+nav img{
+  height:40px;
+  padding-top: 1.5rem;
+  cursor: pointer;
+ 
+}
+ul{
+  display: flex;
+  gap: 30px;
+
+}
+ul li {
+  list-style: none;
+  color: cornsilk;
+padding-top: 1rem;
+cursor: pointer;
+}
+
+li:hover{
+  color: brown;
+}
+
+
+
+
+.button{
+  padding-top: 0.4rem;
+ 
+}
+div button{
+ padding:10px 20px;
+ border-radius: 5px; 
+ width: 100%;
+color: white;
+cursor: pointer;
+ 
+}
+
+button:hover{
+  background-color:brown;
+
+}
+
+
+
+section img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%; 
+}
+
+.Main-section
+{
+   display:flex;
+   margin-left: 20%;
+   
+}
+
+#Justice{
+  width: 80%;
+  font-size:60px;
+  font-weight: 1000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+
+}
+p{
+ width: 50%;
+  color: white;
+margin-top:15%;
+}

@@ -1,0 +1,87 @@
+/* You can not modify anything in the HTML */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #231f20;
+  padding: 20px;
+  align-items: center;
+}
+.logo {
+  height: 30px;
+  position: relative;
+  left: 60px;
+}
+nav .grow-list {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  gap: 60px;
+  margin-left: 50px;
+}
+li {
+  color: white;
+  list-style: none;
+  font-size: 17px;
+  font-weight: bolder;
+}
+/* You can only modify the CSS file */
+.button-small {
+  position: relative;
+  right: 100px;
+  background-color: #942193;
+  color: white;
+  width: 120px;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-image: url("./assets/bg.png");
+  height: 100vh;
+}
+.hero-heading {
+  color: white;
+  font-size: 85px;
+  font-weight: bold;
+  margin-top: 180px;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-description {
+  font-size: 29px;
+  font-weight: bold;
+  color: white;
+}
+.button-large {
+  margin-top: 20px;
+  background-color: #942193;
+  color: white;
+  width: 300px;
+  border: none;
+  height: 50px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.line {
+  border-right: 1.2px solid white;
+  height: 40px;
+  margin-left: 180px;
+}
