@@ -1,6 +1,6 @@
 
 # Assgnment_Ineuron
-HashNode 
+HashNode Blogs
 1) HTML Basics
 https://mydevad.hashnode.dev/html-concepts
 
