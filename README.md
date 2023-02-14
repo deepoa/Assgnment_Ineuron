@@ -8,4 +8,4 @@ https://mydevad.hashnode.dev/html-concepts
 https://mydevad.hashnode.dev/css-selectors
 
 3)JavsScript DOM
-https://mydevad.hashnode.dev/javascript-dom
+  https://mydevad.hashnode.dev/javascript-dom
