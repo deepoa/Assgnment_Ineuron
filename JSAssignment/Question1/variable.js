@@ -1,6 +1,6 @@
 // Declaring Variables with data types
 
-let myname = "shubham"; // string
+let myname = "Deepesh"; // string
 const developer = true; // boolean
 const testnull = null; // null
 const testundefined = undefined; // undefined
