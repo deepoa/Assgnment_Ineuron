@@ -19,9 +19,6 @@ Change Contact navigation menu to "Projects" name then add new navigation menu a
 
 ## Change Contact to Projects-
 
-let ul = document.querySelector("nav ul");
-ul.lastElementChild.innerHTML = "Projects";
-
 **Task 5**
 
 ## Add "Support Me" Button next to Chant with me button-
