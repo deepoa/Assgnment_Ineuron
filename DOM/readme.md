@@ -9,18 +9,15 @@ Change Contact navigation menu to "Projects" name then add new navigation menu a
 
 ## Change input placeholder text to "Search My Project"-
 
-
 **Task 3**
 
 ## Change span text and display footer social icons-
-
 
 **Task 4**
 
 ## Change hero avtar image t Hitesh Sir's image-
 
 ## Change Contact to Projects-
-
 
 **Task 5**
 
