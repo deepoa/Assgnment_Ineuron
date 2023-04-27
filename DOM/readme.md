@@ -9,13 +9,11 @@ Change Contact navigation menu to "Projects" name then add new navigation menu a
 
 ## Change input placeholder text to "Search My Project"-
 
-document.querySelector("input").placeholder = "Search My Project";
 
 **Task 3**
 
 ## Change span text and display footer social icons-
 
-![TASKIMG3](./DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task3Output.png)
 
 **Task 4**
 
@@ -23,8 +21,6 @@ document.querySelector("input").placeholder = "Search My Project";
 
 ## Change Contact to Projects-
 
-let ul = document.querySelector("nav ul");
-ul.lastElementChild.innerHTML = "Projects";
 
 **Task 5**
 
