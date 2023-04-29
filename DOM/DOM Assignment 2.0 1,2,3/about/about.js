@@ -11,8 +11,8 @@ accordian.forEach((element) => {
   });
 });
 
-const projects = document.querySelector("nav ul");
-projects.lastElementChild.innerHTML = "Projects";
+// const projects = document.querySelector("nav ul");
+// projects.lastElementChild.innerHTML = "Projects";
 
 const heading = document.querySelectorAll("h3");
 
