@@ -73,27 +73,34 @@
     </div>
 
     <script>
-      let courses = document.querySelectorAll(".main__languages a");
-      for (let i = 0; i < courses.length; i++) {
-        if (courses[i].innerHTML.includes("2.0")) {
-          courses[i].style.display = "none";
+      let course = document.querySelectorAll(".main__languages a");
+      for (let i = 0; i < course.length; i++) {
+        if (course[i].innerHTML.includes("2.0")) {
+          // console.log(course[i].innerHTML.includes("2.0"));
+          course[i].style.display = "none";
         }
       }
 
       let inputtxt = document.querySelector(".main__form-input");
 
       inputtxt.disabled = false;
+      inputtxt;
 
       let submitbtn = document.querySelector(".main__form-btn");
-
       submitbtn.disabled = false;
 
-      submitbtn.addEventListener("click", (refresh) => {
-        for (let j = 0; j < courses.length; j++) {
-          if (courses[j].innerHTML.includes("2.0")) {
-            courses[j].style.display = "inline";
-          }
-        }
+      const a = document.createElement("div");
+      a.innerHTML = "After Writing the text submit the form";
+      a.style.backgroundColor = "red";
+      a.style.padding = "100px, 100px";
+      a.style.borderRadius = "5px";
+      a.style.color = "white";
+      a.style.textAlign = "center";
+
+      submitbtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        inputtxt.placeholder = "Ineruon";
+        document.querySelector(".main").appendChild(a);
       });
     </script>
   </body>
