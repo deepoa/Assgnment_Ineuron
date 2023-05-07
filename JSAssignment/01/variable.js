@@ -2,7 +2,7 @@
 
 
 //  Vriables with data type declaration
-let fname='Kpail Sarkar'; //string
+let fname='Deepesh Adhikari'; //string
 let learning=true; //boolean
 let govtjob=undefined;//undefined
 let privatejob=null;//null
