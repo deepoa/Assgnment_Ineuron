@@ -39,5 +39,16 @@
       </div>
     </div>
     <span class="title"></span>
+
+    <script>
+      document.querySelector(".caption .title").style.color = "#dc143c";
+      const button = document.querySelector(".add-to-cart");
+      button.addEventListener("mouseover", () => {
+        button.style.backgroundColor = "#dc143c";
+      });
+      button.addEventListener("mouseout", () => {
+        button.style.backgroundColor = "#000000";
+      });
+    </script>
   </body>
 </html>
